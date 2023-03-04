@@ -1,0 +1,7 @@
+ <div style="margin-top: 16px;">{%for job in jobs%}
+        <div>{{job['titel']}}</div>
+        {% if 'gehalt' in job %}
+        <div>{<b>Gehalt: </b>{job['gehalt']}}</div>
+        {% endif %}
+      {% endfor %}
+      </div>
