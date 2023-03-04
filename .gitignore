@@ -2,7 +2,9 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+# replit
+.replit
+.breakpoint
 # C extensions
 *.so
 
