@@ -4,7 +4,10 @@ __pycache__/
 *$py.class
 # replit
 .replit
-.breakpoint
+.breakpoints
+poetry.lock
+replit.nix
+pyproject.toml
 # C extensions
 *.so
 
